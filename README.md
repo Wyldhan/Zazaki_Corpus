@@ -1,7 +1,3 @@
-Here is a professional GitHub `README.md` file designed for an NLP and Corpus Linguistics audience. It utilizes specific jargon related to dataset curation, text processing, and sociolinguistics.
-
----
-
 #Vate Corpus Metadata: A Diachronic Dataset of the Kirmanckî (Zazakî) Dialect##📄 Dataset OverviewThis repository contains the structured metadata for the **Vate Corpus**, a comprehensive collection of texts from *Vate Magazine*. Spanning 75 issues, this dataset offers a granular view of literary and non-literary production in **Kirmanckî (Zazakî)**, a dialect of the Kurdish language (Indo-Iranian language family).
 
 This dataset serves as a crucial resource for **Low-Resource Language (LRL)** processing, enabling researchers to perform quantitative analysis, genre classification, and sociolinguistic profiling on an under-represented linguistic variety.
