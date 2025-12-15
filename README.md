@@ -20,16 +20,16 @@ This dataset serves as a critical resource for **Low-Resource Language (LRL)** p
 
 The dataset is serialized in `.csv` format with the following feature columns:
 
-| Feature Label   | Data Type     | Description                          | Natural Language Processing (NLP) Relevance                         |
-|----------------|---------------|--------------------------------------|---------------------------------------------------------------------|
-| `No`           | Integer       | Unique Identifier (UID)              | Indexing and retrieval                                              |
-| `Issue`        | String/Cat    | Publication Issue ID                 | Diachronic / temporal analysis segments                             |
-| `Title`        | String        | Document Header                      | Topic modeling, Named Entity Recognition (NER)                      |
-| `Author_Gender`| Categorical   | Gender (Male/Female/Collective)      | Sociolinguistic bias analysis; stylometric profiling                |
-| `Author`       | String        | Entity Name                          | Author attribution, stylometry                                      |
-| `Pagination`   | String        | Physical location in source          | Reference validation                                                |
-| `Genre`        | Categorical   | Text taxonomy (e.g., Poetry, Article, Memoir) | Document classification, domain adaptation training       |
-| `Token_Count`  | Integer       | Length magnitude                     | Normalization, frequency distribution analysis                      |
+| Feature Label    | Data Type   | Description                        | Natural Language Processing (NLP) Relevance                        |
+|-----------------|------------|------------------------------------|--------------------------------------------------------------------|
+| `No`            | Integer    | Unique Identifier (UID)            | Indexing and retrieval                                             |
+| `Issue`         | String/Cat | Publication Issue ID               | Diachronic / temporal analysis segments                            |
+| `Title`         | String     | Document Header                    | Topic modeling, Named Entity Recognition (NER)                     |
+| `Author_Gender` | Categorical| Gender (Male/Female/Collective)    | Sociolinguistic bias analysis; stylometric profiling               |
+| `Author`        | String     | Entity Name                        | Author attribution, stylometry                                     |
+| `Pagination`    | String     | Physical location in source        | Reference validation                                               |
+| `Genre`         | Categorical| Text taxonomy (e.g., Poetry, Article, Memoir) | Document classification, domain adaptation training     |
+| `Token_Count`   | Integer    | Length magnitude                   | Normalization, frequency distribution analysis                     |
 
 ---
 
@@ -93,10 +93,13 @@ interviews = df[df["Genre"].str.contains("Interview", case=False, na=False)]---
 ## 📝 Citation
 
 If you utilize this metadata for computational linguistics research, please cite the source:
-tex
-@misc{vate_corpus_metadata,
+
+
+tex @misc{vate_corpus_metadata,
   title     = {Vate Magazine Metadata: A Zazakî Kurdish Dialect Corpus Resource},
   year      = {2025},
   publisher = {Veysel Yıldızhan},
-  note      = {Data extracted from Vate Issues 1–75}
+  note      = {Data extracted from Vate Issues 1-75}
 }
+
+---
